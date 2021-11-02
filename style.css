@@ -42,6 +42,22 @@ section {
   object-fit: cover;
 }
 
+.normal-img {
+  display: block;
+}
+
+.hover-img {
+  display: none;
+}
+
+.card-element:hover .hover-img {
+  display: block;
+}
+
+.card-element:hover .normal-img {
+  display: none;
+}
+
 .heart {
   width: 40px;
   height: 40px;
@@ -56,7 +72,7 @@ section {
 }
 
 .heart span {
-  transition: all .2s linear ;
+  transition: all 0.2s linear;
 }
 
 .heart:hover span {
@@ -67,6 +83,14 @@ section {
 .card-text {
   position: absolute;
   bottom: 20px;
+}
+
+.card-details {
+  margin-top: 5px;
+}
+
+.card-details h4 {
+  font-weight: 500;
 }
 
 .sale,

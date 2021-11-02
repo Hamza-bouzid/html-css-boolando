@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
 }
 
@@ -19,6 +19,10 @@ section {
   margin: 20px auto;
   width: 80%;
   max-width: 1200px;
+}
+
+.row {
+  margin-bottom: 80px;
 }
 
 .card-element {
@@ -51,8 +55,13 @@ section {
   cursor: pointer;
 }
 
+.heart span {
+  transition: all .2s linear ;
+}
+
 .heart:hover span {
   color: red;
+  font-size: 24px;
 }
 
 .card-text {
@@ -68,18 +77,18 @@ section {
 }
 
 .sale {
-  background-color: #EB0037;
+  background-color: #eb0037;
   position: relative;
 }
 
 .sostenibilita {
-  background-color: #00875A;
+  background-color: #00875a;
 }
 
 .current-price {
-  color: red
+  color: red;
 }
 
 .old-price {
-  text-decoration:line-through;
+  text-decoration: line-through;
 }
